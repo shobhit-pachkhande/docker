@@ -39,7 +39,7 @@
         jdbcInterceptors="org.apache.tomcat.jdbc.pool.interceptor.ConnectionState;
             org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer"
         username="admin"
-        password="Admin123"
+        password="admin123"
         driverClassName="com.mysql.jdbc.Driver"
         url="jdbc:mysql://my-rds.cl8ke82qot1x.ap-south-1.rds.amazonaws.com:3306/studentapp"/>
     <!-- Default set of monitored resources. If one of these changes, the    -->
