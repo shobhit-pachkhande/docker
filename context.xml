@@ -41,7 +41,7 @@
         username="admin"
         password="admin123"
         driverClassName="com.mysql.jdbc.Driver"
-        url="jdbc:mysql://my-rds.cl8ke82qot1x.ap-south-1.rds.amazonaws.com:3306/studentapp"/>
+        url="jdbc:mysql://database-1.cl8ke82qot1x.ap-south-1.rds.amazonaws.com"/>
     <!-- Default set of monitored resources. If one of these changes, the    -->
     <!-- web application will be reloaded.                                   -->
     <WatchedResource>WEB-INF/web.xml</WatchedResource>
