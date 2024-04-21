@@ -43,4 +43,8 @@ CREATE TABLE if not exists students(student_id INT NOT NULL AUTO_INCREMENT,
    22  docker ps -a
    23  history -->
 -------------------------------------------------------------------------------------
-in context.xml
+in context.xml file 
+username="admin"
+        password="admin123"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://docker-new-rds.cl8ke82qot1x.ap-south-1.rds.amazonaws.com:3306/studentapp"/>
