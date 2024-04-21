@@ -20,6 +20,7 @@
    19  ls
 # Make rds database in aws and install mysql in sever
    sudo apt install mysql-server -y
+   
    mysql -h (RDS database endpoint) -u (RDS database user) -p(RDS database user password)
 show databases;
 create database studentapp;
