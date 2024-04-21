@@ -48,3 +48,4 @@ username="admin"
         password="admin123"
         driverClassName="com.mysql.jdbc.Driver"
         url="jdbc:mysql://docker-new-rds.cl8ke82qot1x.ap-south-1.rds.amazonaws.com:3306/studentapp"/>
+        
