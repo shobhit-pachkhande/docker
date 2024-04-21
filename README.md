@@ -21,7 +21,7 @@
 # Make rds database in aws and install mysql in sever
    sudo apt install mysql-server -y
 
-   20  mysql -h <> -u admin -p
+   20  mysql -h <rds endpoint url> -u admin -p
    21  ls
    22  docker ps -a
    23  history -->
