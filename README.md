@@ -19,7 +19,7 @@
    18  docker port studentapp
    19  ls
 # Make rds database in aws and install mysql in sever
-   sudo apt install  
+   sudo apt install mysql-server -y 
    20  mysql -h docker-new-rds.cl8ke82qot1x.ap-south-1.rds.amazonaws.com -u admin -p
    21  ls
    22  docker ps -a
