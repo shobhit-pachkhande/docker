@@ -2,6 +2,7 @@ mysql -h (RDS database endpoint) -u (RDS database user) -p(RDS database user pas
 show databases;
 create database studentapp;
 use studentapp;
+
 CREATE TABLE if not exists students(student_id INT NOT NULL AUTO_INCREMENT,
 	student_name VARCHAR(100) NOT NULL,
     student_addr VARCHAR(100) NOT NULL,
