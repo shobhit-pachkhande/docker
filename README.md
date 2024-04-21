@@ -1,4 +1,4 @@
-# docker installation and through docker file 
+# docker installation and through docker file make images and 
      #1  docker -v
     2  docker --version
     3  sudo apt-get update
