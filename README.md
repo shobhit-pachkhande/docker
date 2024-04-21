@@ -1,4 +1,4 @@
-# docker installation and through docker file make images and build image and 
+# docker installation and through docker file make images and build image and save student data in 
      #1  docker -v
     2  docker --version
     3  sudo apt-get update
