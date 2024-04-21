@@ -11,8 +11,8 @@
    10  sudo apt-get update
    11  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
    12  docker -v
-   13  service docker status ---after that restart the server..
-   14  sudo usermod -aG docker ubuntu
+   13  service docker status 
+   14  sudo usermod -aG docker ubuntu --after that restart the server..
    15  docker images
    16  docker run -itd --name studentapp -p 8080:8080 49721599fbb0
    17  docker ps -a
