@@ -1,4 +1,4 @@
-# docker installation and rds 
+# docker installation and 
      #1  docker -v
     2  docker --version
     3  sudo apt-get update
