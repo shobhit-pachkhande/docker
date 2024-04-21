@@ -1,4 +1,4 @@
-# docker 
+-- # docker 
  <!-- 1  docker -v
     2  docker --version
     3  sudo apt-get update
@@ -21,4 +21,4 @@
    20  mysql -h docker-new-rds.cl8ke82qot1x.ap-south-1.rds.amazonaws.com -u admin -p
    21  ls
    22  docker ps -a
-   23  history -->
+   23  history --> -->
