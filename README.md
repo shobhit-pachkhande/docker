@@ -42,3 +42,5 @@ CREATE TABLE if not exists students(student_id INT NOT NULL AUTO_INCREMENT,
    21  ls
    22  docker ps -a
    23  history -->
+-------------------------------------------------------------------------------------
+in 
