@@ -20,7 +20,7 @@
    19  ls
 # Make rds database in aws and install mysql in sever
    sudo apt install mysql-server -y
-   
+
    mysql -h (RDS database endpoint) -u (RDS database user) -p(RDS database user password)
 show databases;
 create database studentapp;
@@ -35,8 +35,7 @@ CREATE TABLE if not exists students(student_id INT NOT NULL AUTO_INCREMENT,
 	student_year_passed VARCHAR(10) NOT NULL,
 	PRIMARY KEY (student_id)
 );
-
-   20  mysql -h <rds endpoint url> -u admin -p
+-----------------------------------------------------------------------------------
    21  ls
    22  docker ps -a
    23  history -->
