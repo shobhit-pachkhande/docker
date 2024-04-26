@@ -12,6 +12,7 @@
     9    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
    10  sudo apt-get update
    11  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+   
 ---------------------------------------------------------------------------------------------
    12  docker -v
 
@@ -28,7 +29,7 @@
    18  docker port studentapp
 
    19  ls
-   
+
 ------------------------------------------------------------------------------------------
 
 # Make rds database in aws and install mysql in sever
